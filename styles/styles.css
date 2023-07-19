@@ -14,6 +14,7 @@ nav{
     justify-content: space-around;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    flex-shrink: 0;
 }
 
 .menu-title{
@@ -43,6 +44,7 @@ nav img{
     display: flex;
     list-style: none;
     text-decoration: none;
+    padding: 20px;
     
 }
 nav a {
@@ -52,18 +54,29 @@ nav a {
     font-size: 18px;
     color: #3C354F;
 }
+.btn-menu{
+    width: 262px;
+    height: 56px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    color: #FFF;
+    margin-top: 10px;
+}
 
 
 
 /* banner section */
 .banner{
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
     background-image: url(../images/Group\ 14.png);
     background-repeat: no-repeat;
     margin-bottom: 0px;
-    
+    gap: 300px;
 }
 .banner-item{
     font-size: 48px;
@@ -115,9 +128,9 @@ nav a {
 /* gammer items section */
 .gamer-item{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 1920px;
+    gap: 50px;
     height: 600px;
     flex-shrink: 0;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -125,7 +138,8 @@ nav a {
 
 .gammer-title{
     text-align: right;
-    margin-right: 100px;
+    margin-right: 30px;
+
 
 }
 .title-gammer{
@@ -195,6 +209,9 @@ nav a {
     margin-left: 100px;
 }
 
+
+/* online game section */
+
 .instant-play{
     display: flex;
     justify-content: center;
@@ -227,6 +244,7 @@ nav a {
     padding-top: 200px;
     gap: 300px;
     margin-top: 200px;
+
 }
 
 .ga-img{
@@ -275,6 +293,7 @@ nav a {
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     justify-content: space-evenly;
     height: 700px;
+    /* width: 1920px; */
 
 }
 .list{
@@ -315,3 +334,4 @@ nav a {
     margin-right: 3px;
 
 }
+
