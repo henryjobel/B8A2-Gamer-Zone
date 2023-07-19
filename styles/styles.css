@@ -194,3 +194,73 @@ nav a {
 .img1 img p{
     margin-left: 100px;
 }
+
+.instant-play{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+    gap: 300px;
+}
+.instant-heading{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.instant-des{
+    width: 353px;
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.ga-play{
+    display: flex;
+    justify-content: center; 
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+    gap: 300px;
+    margin-top: 200px;
+}
+
+.ga-img{
+    padding-left: 100px;
+    width: 710px;
+    height: 650px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+.ga-heading{
+    width: 426px;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+ 
+.ga-des{
+    width: 483px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    
+}   
+
+.popup-img{
+    text-align: right;
+    margin-top: -250px;
+    border-radius: 8px;
+    margin-left: 500px;
+
+}
+
+.insta-ig{
+    text-align: left;
+    margin-top: -300px;
+    margin-right: 600px;
+}
