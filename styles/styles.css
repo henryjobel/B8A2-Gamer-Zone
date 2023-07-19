@@ -264,3 +264,54 @@ nav a {
     margin-top: -300px;
     margin-right: 600px;
 }
+
+
+/* career section */
+
+.career-section{
+    display: flex;
+    margin-top: 400px;
+    align-items: center;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    justify-content: space-evenly;
+    height: 700px;
+
+}
+.list{
+    display: flex;
+    padding-top: 50px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.career-title{
+    width: 426px;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 100px;
+    
+}
+.career-des{
+    width: 680px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 100px;
+}
+.career-button{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    margin-top: 30px;
+    margin-right: 3px;
+
+}
