@@ -22,6 +22,8 @@ nav{
     margin: 10px;
     font-weight: 700;
 }
+.menu-items ul:hover{
+}
 
 nav img{
     width: 80px;
@@ -45,7 +47,11 @@ nav img{
     list-style: none;
     text-decoration: none;
     padding: 20px;
+    cursor: pointer;
     
+}
+nav a:hover{
+    color: #F948B2;
 }
 nav a {
     text-decoration: none;
@@ -53,6 +59,7 @@ nav a {
     font-weight: 500;
     font-size: 18px;
     color: #3C354F;
+    cursor: pointer;
 }
 .btn-menu{
     width: 262px;
@@ -75,9 +82,9 @@ nav a {
     justify-content: center;
     background-image: url(../images/Group\ 14.png);
     background-repeat: no-repeat;
-    margin-bottom: 0px;
     gap: 300px;
 }
+
 .banner-item{
     font-size: 48px;
     color: #0B0223;
@@ -360,11 +367,17 @@ nav a {
 
 }
 
+.all-games{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
 .frist-5game{
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 200px;
+    padding-top: 100px;
+    cursor: pointer;
+    padding-bottom: 30px;
 
 }
 .action{
@@ -372,10 +385,15 @@ nav a {
     width: 281px;
     height: 80px;
     font-size: 20px;
-    border: 2px solid blanchedalmond;
     border-radius: 30px;
     gap: 20px;
+    cursor: pointer;
+    background: #FFF;
 
+}
+.action:hover{
+    color: #F948B2;
+    border: 2px solid #F948B2;
 }
 
 .action-game{
@@ -383,13 +401,18 @@ nav a {
 }
 .adv{
     display: flex;
-    width: 300px;
+    width: 400px;
     height: 80px;
     font-size: 20px;
-    border: 2px solid blanchedalmond;
     border-radius: 30px;
     gap: 20px;
+    cursor: pointer;
+    background: #FFF;
 
+}
+.adv:hover{
+    color: #F948B2;
+    border: 2px solid #F948B2;
 }
 
 .adv-game{
@@ -400,10 +423,15 @@ nav a {
     width: 281px;
     height: 80px;
     font-size: 20px;
-    border: 2px solid blanchedalmond;
     border-radius: 30px;
     gap: 20px;
+    cursor: pointer;
+    background: #FFF;
 
+}
+.arc:hover{
+    color: #F948B2;
+    border: 2px solid #F948B2;
 }
 
 .arc-game{
@@ -414,40 +442,39 @@ nav a {
     width: 350px;
     height: 80px;
     font-size: 20px;
-    border: 2px solid blanchedalmond;
     border-radius: 30px;
     gap: 20px;
+    cursor: pointer;
+    background: #FFF;
 
+}
+.edu:hover{
+    color: #F948B2;
+    border: 2px solid #F948B2;
 }
 
 .edu-games{
     margin-top: 30px;
 }
 
-.arc{
-    display: flex;
-    width: 281px;
-    height: 80px;
-    font-size: 20px;
-    border: 2px solid blanchedalmond;
-    border-radius: 30px;
-    gap: 20px;
 
-}
 
-.arc-game{
-    margin-top: 30px;
-}
+
 
 .wo{
     display: flex;
     width: 281px;
     height: 80px;
     font-size: 20px;
-    border: 2px solid blanchedalmond;
     border-radius: 30px;
     gap: 20px;
+    cursor: pointer;
+    background: #FFF;
 
+}
+.wo:hover{
+    color: #F948B2;
+    border: 2px solid #F948B2;
 }
 
 .wo-games{
@@ -465,10 +492,15 @@ nav a {
     width: 380px;
     height: 80px;
     font-size: 20px;
-    border: 2px solid blanchedalmond;
     border-radius: 30px;
     gap: 20px;
+    cursor: pointer;
+    background: #FFF;
 
+}
+.ro:hover{
+    color: #F948B2;
+    border: 2px solid #F948B2;
 }
 
 .ro-games{
@@ -480,10 +512,15 @@ nav a {
     width: 281px;
     height: 80px;
     font-size: 20px;
-    border: 2px solid blanchedalmond;
     border-radius: 30px;
     gap: 20px;
+    cursor: pointer;
+    background: #FFF;
 
+}
+.mu:hover{
+    color: #F948B2;
+    border: 2px solid #F948B2;
 }
 
 .mu-games{
@@ -494,10 +531,15 @@ nav a {
     width: 281px;
     height: 80px;
     font-size: 20px;
-    border: 2px solid blanchedalmond;
     border-radius: 30px;
     gap: 20px;
+    cursor: pointer;
+    background: #FFF;
 
+}
+.puz:hover{
+    color: #F948B2;
+    border: 2px solid #F948B2;
 }
 
 .puz-games{
@@ -509,10 +551,15 @@ nav a {
     width: 350px;
     height: 80px;
     font-size: 20px;
-    border: 2px solid blanchedalmond;
     border-radius: 30px;
     gap: 20px;
+    cursor: pointer;
+    background: #FFF;
 
+}
+.str:hover{
+    color: #F948B2;
+    border: 2px solid #F948B2;
 }
 
 .str-games{
@@ -529,17 +576,14 @@ footer{
 .footer-logo{
     display: flex;
     justify-content: center;
-    padding: 120px;
     gap: 7px;
+    margin-top: 10px;
+    padding: 100px;
 }
 
 .footer-heading{
-    color: #FFF;
+    color: #e2d5d5;
     font-size: 30px;
-}
-
-.footer-menu{
-    /* margin: -60px; */
 }
 .footer-menu ul{
     display: flex;
@@ -582,4 +626,3 @@ footer{
     margin-top: 50px;
     font-size: 16;
 }
-
