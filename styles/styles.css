@@ -17,6 +17,13 @@ nav{
     flex-shrink: 0;
 }
 
+.g{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .menu-title{
     font-size: 45px;
     margin: 10px;
@@ -121,6 +128,8 @@ nav a {
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     border: none;
     color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .banner-btn2{
     display: inline-flex;
@@ -184,6 +193,7 @@ nav a {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
 }
 .des-gammer{
     width: 520px;
@@ -243,6 +253,12 @@ nav a {
 
 
 /* online game section */
+.play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .instant-play{
     display: flex;
@@ -278,6 +294,14 @@ nav a {
     margin-top: 200px;
 
 }
+
+
+.game{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+} 
 
 .ga-img{
     padding-left: 100px;
@@ -401,7 +425,7 @@ nav a {
 }
 .adv{
     display: flex;
-    width: 400px;
+    width: 350px;
     height: 80px;
     font-size: 20px;
     border-radius: 30px;
@@ -485,11 +509,12 @@ nav a {
     display: flex;
     margin-top: 50px;
     justify-content: center;
+    gap: 10px;
 }
 
 .ro{
     display: flex;
-    width: 380px;
+    width: 370px;
     height: 80px;
     font-size: 20px;
     border-radius: 30px;
@@ -597,6 +622,10 @@ footer{
     list-style: none;
     text-decoration: none;
     color: #FFF;
+    cursor: pointer;
+}
+.footer-menu a:hover{
+    color: #F948B2;
 }
 
 .social-container ul{
@@ -611,6 +640,10 @@ footer{
 .useful-links a{
     text-decoration: none;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.useful-links a:hover{
+    color: #F948B2;
 }
 .useful-links ul{
     list-style: none;
